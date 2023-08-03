@@ -7,7 +7,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: update #Entity에 변경사항이 있을 때만 감지를 해서 만들어주는 것, Create라고 설정하면 매번 새로 생성하게 됨, Createdrop
     properties:
       hibernate:
         format_sql: true
